@@ -400,7 +400,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.62352943, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -409,7 +409,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 80
+    m_FontSize: 90
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -461,14 +461,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rocketTop:
-  - {fileID: 4760969126234731366, guid: 97e0411fafba6644b8986c7e49a113a7, type: 3}
-  - {fileID: 4760969126234731366, guid: b387bea3d744e474791a33d8a61e8d19, type: 3}
+  - {fileID: 6772616905640130084, guid: 103fd203d29f7b74bb4278fce899ffe0, type: 3}
+  - {fileID: 3491779480028884885, guid: 0817d97987c77d14aafd351089335f8a, type: 3}
+  - {fileID: 6872441145815459643, guid: af56332576f100c43a56b3b69c7d5f32, type: 3}
   rocketMiddle:
-  - {fileID: 528608560667758093, guid: 718371732db029d45b5ffb6b37c6c84d, type: 3}
-  - {fileID: 528608560667758093, guid: b4c59cd00ce9c5e4c9c06d2e402e369b, type: 3}
+  - {fileID: 1164669287104083796, guid: a70e45dfc3d76504797349d78f578974, type: 3}
+  - {fileID: 5906696690008046553, guid: b4c59cd00ce9c5e4c9c06d2e402e369b, type: 3}
+  - {fileID: 1678695082767142332, guid: 88cd5b9def6b9674baa6d480647d1a96, type: 3}
   rocketBottom:
-  - {fileID: 6425941340096432471, guid: ed1c48ff8f92a444fb7d08c8ee7cbda1, type: 3}
-  - {fileID: 6425941340096432471, guid: 7c82eb18b3149cb40bd9957041237bcd, type: 3}
+  - {fileID: 5678449501603179395, guid: c223ce86087d25248be75d39be7b82af, type: 3}
+  - {fileID: 9196625778864278920, guid: 7c82eb18b3149cb40bd9957041237bcd, type: 3}
+  - {fileID: 1350694157549705552, guid: 2ff0a840df5bbe44398846b53723ff36, type: 3}
   topPartsStats:
   - nomeDaPeca: Top1
     peso: 5
@@ -478,21 +481,33 @@ MonoBehaviour:
     peso: 3
     aerodinamica: 10
     estabilidade: 4
+  - nomeDaPeca: Top3
+    peso: 3
+    aerodinamica: 10
+    estabilidade: 4
   middlePartsStats:
-  - nomeDaPeca: Middle1
+  - nomeDaPeca: Corpo
     peso: 10
     aerodinamica: 5
     estabilidade: 10
-  - nomeDaPeca: Middle2
+  - nomeDaPeca: Corpo2
+    peso: 5
+    aerodinamica: 7
+    estabilidade: 6
+  - nomeDaPeca: Corpo3
     peso: 5
     aerodinamica: 7
     estabilidade: 6
   bottomPartsStats:
-  - nomeDaPeca: Bottom1
+  - nomeDaPeca: Aleta
     peso: 9
     aerodinamica: 6
     estabilidade: 9
-  - nomeDaPeca: Bottom2
+  - nomeDaPeca: Aleta2
+    peso: 4
+    aerodinamica: 10
+    estabilidade: 5
+  - nomeDaPeca: Aleta3
     peso: 4
     aerodinamica: 10
     estabilidade: 5
@@ -993,7 +1008,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.91764706, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1002,7 +1017,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 80
+    m_FontSize: 90
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -1336,7 +1351,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.918896, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1345,7 +1360,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 80
+    m_FontSize: 90
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -1415,7 +1430,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.91764706, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1424,7 +1439,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 80
+    m_FontSize: 90
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
