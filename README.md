@@ -17,14 +17,14 @@ O marcador escolhido foi a capa do livro **"Do Átomo ao Buraco Negro"**, do div
 
 ## ✨ Funcionalidades
 
-* **Personalização Modular:** Troque peças do foguete (motores, fuselagem, etc).
+* **Personalização Modular:** Troque peças do foguete.
 * **Sistema de Status Dinâmico:** O peso, aerodinâmica e potência mudam conforme as peças escolhidas.
 * **Rastreamento AR Estável:** O modelo 3D é "ancorado" na capa do livro, permitindo inspeção em 360 graus movendo o celular ao redor.
 
 ## 🛠️ Tecnologias Utilizadas
 
 * **Motor Gráfico:** Unity 3D
-* **SDK de Realidade Aumentada:** *(Coloque aqui qual você usou: Vuforia? AR Foundation? ARCore?)*
+* **SDK de Realidade Aumentada:** AR Foudation 
 * **Linguagem:** C#
 
 ## 🚀 Como abrir o projeto
